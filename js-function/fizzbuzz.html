@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fizz buzz</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">fizz buzz</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          function fizz_buzz(i) {<br>
+          <br>
+          	        for(i=1;i<=100;i++){<br>
+                  <br>
+                          if((i%3===0)&&(i%5===0)){<br>
+                	            document.write(i,"fizzbuzz");<br>
+                          }<br>
+                          else if(i%3===0){<br>
+                   	        document.write(i,"fizz");<br>
+                          }<br>
+                          else if(i%5===0) {<br>
+                   	        document.write(i,"buzz")<br>
+                          }<br>
+                          else {<br>
+                          document.write(i,"Not-fizz||buzz")<br>
+                          }<br>
+          	         }	<br>
+                    }<br>
+                    <br>
+                   fizz_buzz(num)<br>
+          	</p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+<script type="text/javascript">
+	
+
+          function fizz_buzz(i) {
+	        for(i=1;i<=100;i++){
+        
+                if((i%3===0)&&(i%5===0)){
+      	            document.write("=> ",i,"fizzbuzz<br>");
+                }
+                else if(i%3===0){
+         	        document.write("=> ",i,"fizz<br>");
+                }
+                else if(i%5===0) {
+         	        document.write("=> ",i,"buzz<br>")
+                }
+                else {
+                document.write("=> ",i,"Not-fizz||buzz<br>")
+                }
+	         }	
+          }
+
+         fizz_buzz();
+
+document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

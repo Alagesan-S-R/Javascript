@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>find_weather</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+   	<div class="container">
+   		<div class="box bg-dark-subtle rounded-5 py-4 px-2">
+   			<h1 class="text-center text-capitalize">find weather</h1>
+   			<p class="fs-6 fw-medium ps-1">
+         temp=parseInt(prompt("enter temp"));<br>
+<br>
+if(temp<0)<br>
+{<br>
+	document.write("freezing weather");<br>
+}<br>
+else if((temp>=0) && (temp<10))<br>
+{<br>
+	document.write("very cold weather");<br>
+}<br>
+else if((temp>=10) && (temp<20))<br>
+{<br>
+	document.write("cold weather");<br>
+}<br>
+else if((temp>=20) && (temp<30))<br>
+{<br>
+	document.write("normal weather");<br>
+}<br>
+else if((temp>=30) && (temp<40))<br>
+{<br>
+	document.write("hot weather");<br>
+}<br>
+else<br>
+{<br>
+	document.write("very hot weather");<br>
+}<br>
+
+</p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+
+<script type="text/javascript">
+	
+temp=parseInt(prompt("enter temp"));
+
+if(temp<0)
+{
+	document.write("=> freezing weather");
+}
+else if((temp>=0) && (temp<10))
+{
+	document.write("=> very cold weather");
+}
+else if((temp>=10) && (temp<20))
+{
+	document.write("=> cold weather");
+}
+else if((temp>=20) && (temp<30))
+{
+	document.write("=> normal weather");
+}
+else if((temp>=30) && (temp<40))
+{
+	document.write("=> hot weather");
+}
+else
+{
+	document.write("=> very hot weather");
+}
+
+document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

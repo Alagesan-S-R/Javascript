@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>remove first last</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">remove first last</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          string=prompt("enter string");<br>
+          <br>
+            function remove_first_last(str) {<br>
+              <br>
+              if( str.length >=2){<br>
+                document.write(str.slice(1,-1));<br>
+              }<br>
+              else{<br>
+                document.write("enter proper string")<br>
+              }<br>
+            }<br>
+            <br>
+            remove_first_last(string);<br>
+
+            </p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+<script type="text/javascript">
+
+  string=prompt("enter string");
+
+  function remove_first_last(str) {
+  	
+  	if( str.length >=2){
+  		document.write(str.slice(1,-1));
+  	}
+  	else{
+  		document.write("enter proper string")
+  	}
+  }
+
+  remove_first_last(string);
+
+document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

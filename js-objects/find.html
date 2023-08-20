@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>object find</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+<section class="code my-3">
+   	<div class="container">
+   		<div class="box bg-dark-subtle rounded-5 py-4 px-2">
+   			<h1 class="text-center">Object find-age</h1>
+   			<p class="fs-6 fw-medium ps-1">
+   				
+  const employees = [<br>
+  { name: 'David Carlson', age: 30 },<br>
+  { name: 'John Cena', age: 34 },<br>
+  { name: 'Mike Sheridan', age: 25 },<br>
+  { name: 'John Carte', age: 50 }<br>
+];<br>
+<br>
+var result=employees.find(function (value) {<br>
+		return value.age>30;<br>
+});<br>
+ result=JSON.stringify(result);<br>
+	document.write(result);<br>
+<br>
+let result_index=employees.findIndex(function (value) {<br>
+		return value.age > 30;<br>
+});<br>
+<br>
+document.write("=> Index :",result_index);<br>
+   			</p>
+
+   		</div>
+   	</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+<script type="text/javascript">
+
+ const employees = [
+ { name: "David Carlson", age: 30 },
+ { name: "John Cena", age: 34 },
+ { name: "Mike Sheridan", age: 25 },
+ { name: "John Carte", age: 50 }
+];
+
+let result=employees.find(function (value) {
+		return value.age > 30
+});
+
+result=JSON.stringify(result);
+	document.write("=> ",result,"<br>"); //<= for brower print
+
+
+/*let result=employees.find(function (value) {
+	return value.age > 30 ;
+	}
+});
+
+console.log(result); ===> output :{name: "John Cena", age: 34 }
+*/
+
+let result_index=employees.findIndex(function (value) {
+		return value.age > 30;
+});
+
+document.write("=> Index :",result_index);
+
+document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

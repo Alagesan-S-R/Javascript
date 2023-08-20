@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Yatra+One&display=swap');
+
+body{
+	background: url('img/program.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: darken;
+	width: 100%!important;
+	height: auto!important;
+}
+.section .sf{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.section  .sf i{
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+.section .sf h3{
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px
+}
+.section .sf h3 a{
+	color: white!important;
+    text-decoration: none!important; 
+    transition: 0.3s;
+}
+@media (min-width:320px) and (max-width:600px) {
+body{
+	background: url('img/m-program.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: darken;
+	width: 100%!important;
+	height: auto!important;
+}
+.section .sf{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.section  .sf i{
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+.section .sf h3{
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px
+}
+.section .sf h3 a{
+	color: white!important;
+    text-decoration: none!important; 
+    transition: 0.3s;
+}
+}

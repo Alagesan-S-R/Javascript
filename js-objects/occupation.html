@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>object programmer</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+<section class="code my-3">
+   	<div class="container">
+   		<div class="box bg-dark-subtle rounded-5 py-4 px-2">
+   			<h1 class="text-center">Object filter-occupation</h1>
+   			<p class="fs-6 fw-medium ps-1">
+   				
+  const employees = [<br>
+  { name: 'David Carlson', age: 30 },<br>
+  { name: 'John Cena', age: 34 },<br>
+  { name: 'Mike Sheridan', age: 25 },<br>
+  { name: 'John Carte', age: 50 }<br>
+];<br>
+<br>
+var result=employees.filter(function (value) {<br>
+		return value.age>30;<br>
+});<br>
+ result=JSON.stringify(result);<br>
+	document.write(result);<br>
+   			</p>
+
+   		</div>
+   	</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+<script type="text/javascript">
+
+ let users = [
+    { name: 'John', age: 25, occupation: 'gardener' },
+    { name: 'Lenny', age: 51, occupation: 'programmer' },
+    { name: 'Andrew', age: 43, occupation: 'teacher' },
+    { name: 'Peter', age: 81, occupation: 'teacher' },
+    { name: 'Anna', age: 47, occupation: 'programmer' },
+    { name: 'Albert', age: 76, occupation: 'programmer' },
+]
+
+var result=users.filter(function (value) {
+		return value.occupation == 'programmer';
+});
+ result=JSON.stringify(result);
+	document.write("=> ",result); //<= for brower print
+
+
+
+/*var result=employees.filter(function (value) {
+	return value.age > 30 ;
+	}
+});
+
+console.log(result); ===> output :{name: "John Cena", age: 34 },{ name: 'John Carte', age: 50 }
+
+*/
+document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>rock paper scissor</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">rock paper scissor</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          player_1=String(prompt("player-1 enter your option(rock/paper/scissor)"));<br>
+	player_2=String(prompt("player-2 enter your option(rock/paper/scissor)"));<br>
+	<br>
+		function rock_paper_scissor(p1,p2) {<br>
+		<br>
+			if(((p1==="rock")&&(p2==="rock"))||((p1==="paper")&&(p2==="paper"))||((p1==="scissor")&&(p2==="scissor"))){<br>
+				return "equal points";<br>
+			}<br>
+			else if(((p1==="rock")&&(p2==="paper"))){<br>
+				return "player-2 winner";<br>
+			}<br>
+			else if(((p1==="rock")&&(p2==="scissor"))){<br>
+				return "player-1 winner";<br>
+			}<br>
+			else if(((p1==="paper")&&(p2==="rock"))){<br>
+				return "player-1 winner";<br>
+			}<br>
+			else if(((p1==="paper")&&(p2==="scissor"))){<br>
+				return "player-2 winner";<br>
+			}<br>
+			else if(((p1==="scissor")&&(p2==="paper"))){<br>
+				return "player-1 winner";<br>
+			}<br>
+			else if(((p1==="scissor")&&(p2==="rock"))){<br>
+				return "player-2 winner";<br>
+			}<br>
+			else {<br>
+				return "enter propper option";<br>
+			}<br>
+		}<br>
+		<br>
+		let result=rock_paper_scissor(player_1,player_2);<br>
+		<br>
+		document.write(result);<br>
+
+            </p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+
+<script type="text/javascript">
+	
+	player_1=String(prompt("player-1 enter your option(rock/paper/scissor)"));
+	player_2=String(prompt("player-2 enter your option(rock/paper/scissor)"));
+
+	function rock_paper_scissor(p1,p2) {
+
+		if(((p1==="rock")&&(p2==="rock"))||((p1==="paper")&&(p2==="paper"))||((p1==="scissor")&&(p2==="scissor"))){
+			return "equal points";
+		}
+		else if(((p1==="rock")&&(p2==="paper"))){
+			return "player-2 winner";
+		}
+		else if(((p1==="rock")&&(p2==="scissor"))){
+			return "player-1 winner";
+		}
+		else if(((p1==="paper")&&(p2==="rock"))){
+			return "player-1 winner";
+		}
+		else if(((p1==="paper")&&(p2==="scissor"))){
+			return "player-2 winner";
+		}
+		else if(((p1==="scissor")&&(p2==="paper"))){
+			return "player-1 winner";
+		}
+		else if(((p1==="scissor")&&(p2==="rock"))){
+			return "player-2 winner";
+		}
+		else {
+			return "enter propper option";
+		}
+	}
+
+	let result=rock_paper_scissor(player_1,player_2);
+	document.write("=> ",result);
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+
+</script>
+</body>
+</html>

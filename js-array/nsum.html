@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>N numbers</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">N numbers</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          num=parseInt(prompt("enter num"));<br>
+          <br>
+            function n_number(n) {<br>
+                     var a=[];<br>
+                     let sum=0;<br>
+              for (var i = 0;i <=n ; i++) {<br>
+                    a.push(i);<br>
+                    sum += a[i];<br>
+                    <br>
+                }<br>
+            document.write(a);<br>
+            document.write("=",sum);<br>
+          }<br>
+          <br>
+             n_number(num);<br>
+             <br>
+            
+            </p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+
+
+<script type="text/javascript">
+
+  num=parseInt(prompt("enter num"));
+
+  function n_number(n) {
+  	       var a=[];
+           let sum=0;
+  	for (var i = 0;i <=n ; i++) {
+          a.push(i);
+          sum += a[i];
+
+      }
+  document.write("=> ",a);
+  document.write("=",sum);
+}
+
+   n_number(num);
+
+document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+
+
+</script>
+</body>
+</html>

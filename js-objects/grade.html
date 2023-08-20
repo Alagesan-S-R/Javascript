@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>object grade</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+   	<div class="container">
+   		<div class="box bg-dark-subtle rounded-5 py-4 px-2">
+   			<h1 class="text-center">Object filter-grade</h1>
+   			<p class="fs-6 fw-medium ps-1">
+   				
+  const students = [<br>
+  { name: 'Quincy', grade: 96 },<br>
+  { name: 'Jason', grade: 84 },<br>
+  { name: 'Alexis', grade: 100 },<br>
+  { name: 'Sam', grade: 65 },<br>
+  { name: 'Katie', grade: 90 }<br>
+];<br>
+<br>
+  let result = students.filter(function (value) {<br>
+		return value.grade>=90;;<br>
+    });<br>
+<br>
+  result=JSON.stringify(result);<br>
+  document.write(result);<br>
+   			</p>
+
+   		</div>
+   	</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+
+<script type="text/javascript">
+ 
+ const students = [
+  { name: 'Quincy', grade: 96 },
+  { name: 'Jason', grade: 84 },
+  { name: 'Alexis', grade: 100 },
+  { name: 'Sam', grade: 65 },
+  { name: 'Katie', grade: 90 }
+];
+
+let result=students.filter(function (value) {
+		return value.grade>=90;
+});
+ result=JSON.stringify(result);
+	document.write(" => ",result);  
+
+	document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

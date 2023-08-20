@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>position winner</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">three winner</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          var a=["Anna","Beth","Cara"];<br>
+          <br>
+          let result = a.filter(function(val,i,arr){<br>
+          <br>
+            if(i+1 < 2){<br>
+              document.write(`Gold Winner: ${val}, `);<br>
+            }<br>
+            else if(i+1 < arr.length){<br>
+              document.write(`Silver Winner: ${val}, `);<br>
+            }<br>
+            else{<br>
+              document.write(`Bornze Winner: ${val},`);<br>
+            }<br>
+          });<br>
+          <br>
+          document.write(result);<br>
+                       <br>
+            
+            </p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+<script type="text/javascript">
+
+var a=["Anna","Beth","Cara"];
+
+let result = a.filter(function(val,i,arr){
+
+  if(i+1 < 2){
+    document.write(`Gold Winner: ${val}, `);
+  }
+  else if(i+1 < arr.length){
+    document.write(`Silver Winner: ${val}, `);
+  }
+  else{
+    document.write(`Bornze Winner: ${val},`);
+  }
+});
+
+document.write(result);
+
+document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  
+</script>
+</body>
+</html>

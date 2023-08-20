@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>operators</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">operators</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+       
+var a=3;<br>
+var b=5;<br>
+var c=10;<br>
+document.write(" 1 ",(a==b)&&(b!=c)||(c>=a));<br>
+<br>
+{<br>
+let a=5;<br>
+let b=5;<br>
+document.write(" 2 ",(b!=a)||(b>a)&&(b+=a)));<br>
+}<br>
+<br>
+{<br>
+let a=6;<br>
+let b=2;<br>
+let c=7;<br>
+document.write(" 3 ",(a%b)&&(a==c)||(b>a));<br>
+}<br>
+<br>
+{<br>
+let a=10;<br>
+let b='f';<br>
+let c=7;<br>
+document.write(" 4 ","(a===c)||(b!=c)||(b>a)");<br>
+}<br>
+<br>
+{<br>
+let a=8;<br>
+let b=1;<br>
+let c=4;<br>
+document.write(" 5 ",(c*=b)&&(a!==b)&&(a===a));<br>
+}<br>
+<br>
+{<br>
+let a=9;<br>
+let b=10;<br>
+let c=5;<br>
+document.write(" 6 ",((a+=b)>c)||(c!=b)&&(b%=c));<br>
+}<br>
+<br>
+{<br>
+let a=true;<br>
+let b=0;<br>
+let c=10000;<br>
+document.write("  7 ",(b>a)&&(c/=a)||(b===c));<br>
+}<br>
+<br>
+{<br>
+let a=0;<br>
+let b=0;<br>
+let c=0;<br>
+document.write(" 8 ",(c**=a)&&(b/=a)&&(c!=b));<br>
+}<br>
+<br>
+{<br>
+let a=7;<br>
+let b=50;<br>
+let c=42;<br>
+let d=10;<br>
+document.write("  9 ",(c==a)&&(((c%=a)+b)/d));<br>
+}<br>
+<br>
+{<br>
+let a=1;<br>
+let b=3;<br>
+let c=6;<br>
+document.write("  10(i) ",(c+b)&&(b-a)&&(c+a));<br>
+}<br>
+{<br>
+let a=1;<br>
+let b=3;<br>
+let c=6;<br>
+document.write("  10(ii) ",(c+b)||(b-a)||(c+a));<br>
+}<br>
+<br>
+{<br>
+let a=0;<br>
+let b=false;<br>
+let c=1;<br>
+document.write("  11 ",(a>b)==(c*a)>(b-a));<br>
+}<br>
+<br>
+{<br>
+let a=142;<br>
+let b=240;<br>
+let c=420;<br>
+document.write(" 12(i) ",(a||b)&&(b||c)&&(c||a));   <br>
+}<br>
+{<br>
+let a=142;<br>
+let b=240;<br>
+let c=420;<br>
+document.write(" 12(ii) ",(a&&b)||(b&&c)||(c&&a));   <br>
+}<br>
+{<br>
+let a=142;<br>
+let b=240;<br>
+let c=420;<br>
+document.write(" 12(iii) ",(a||b)||(b||c)||(c||a));   <br>
+}<br>
+{<br>
+let a=142;<br>
+let b=240;<br>
+let c=420;<br>
+document.write(" 12(iv) ",(a&&b)&&(b&&c)&&(c&&a));   <br>
+}<br>
+<br>
+{<br>
+let a=3;<br>
+let b=3;<br>
+let c=3;<br>
+document.write(" 13 ",(b!=c)&&((a>b)+c)||((a*=0)+b));     <br>
+}<br>
+<br>
+{<br>
+ document.write(" 14 ",(true)!==(0+true)>(false));    <br>
+}<br>
+<br>
+{<br>
+let a=1;<br>
+let b=7;<br>
+let c=15;<br>
+let d=11;<br>
+document.write(" 15 ",(((d||a)%b)-c)==(!(false))!==(""));<br>
+} <br>                            </p>
+                         </div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+<script type="text/javascript">
+	
+//1
+var a=3;
+var b=5;
+var c=10;
+document.write("=> 1 : ",(a==b)&&(b!=c)||(c>=a));
+document.write("<br>");
+//2
+{
+let a=5;
+let b=5;
+document.write("=> 2 : ",(b!=a)||(a<b)&&(b+=a));
+document.write("<br>");
+}
+//3
+{
+let a=6;
+let b=2;
+let c=7;
+document.write("=> 3 : ",(a%b)&&(a==c)||(b>a));
+document.write("<br>");
+}
+//4
+{
+let a=10;
+let b='f';
+let c=7;
+document.write("=> 4 : ",(a===c)||(b!=c)||(a<b));
+document.write("<br>");
+}
+//5
+{
+let a=8;
+let b=1;
+let c=4;
+document.write("=> 5 : ",(c*=b)&&(a!==b)&&(a===a));
+document.write("<br>");
+}
+//6
+{
+let a=9;
+let b=10;
+let c=5;
+document.write("=> 6 : ",((a+=b)>c)||(c!=b)&&(b%=c));
+document.write("<br>");
+}
+//7
+{
+let a=true;
+let b=0;
+let c=10000;
+document.write(" => 7 : ",(b>a)&&(c/=a)||(b===c));
+document.write("<br>");
+}
+//8
+{
+let a=0;
+let b=0;
+let c=0;
+document.write("=> 8 : ",(c**=a)&&(b/=a)&&(c!=b));
+document.write("<br>");
+}
+//9
+{
+let a=7;
+let b=50;
+let c=42;
+let d=10;
+document.write(" => 9 : ",(c==a)&&(((c%=a)+b)/d));
+document.write("<br>");
+}
+//10
+{
+let a=1;
+let b=3;
+let c=6;
+document.write(" => 10(i) : ",(c+b)&&(b-a)&&(c+a));
+document.write("<br>");
+}
+{
+let a=1;
+let b=3;
+let c=6;
+document.write(" => 10(ii) : ",(c+b)||(b-a)||(c+a));
+document.write("<br>");
+}
+//11
+{
+let a=0;
+let b=false;
+let c=1;
+document.write(" => 11 : ",(a>b)==(c*a)>(b-a));
+document.write("<br>");
+}
+//12
+{
+let a=142;
+let b=240;
+let c=420;
+document.write("=> 12(i) : ",(a||b)&&(b||c)&&(c||a));   
+document.write("<br>");
+}
+{
+let a=142;
+let b=240;
+let c=420;
+document.write("=> 12(ii) : ",(a&&b)||(b&&c)||(c&&a));   
+document.write("<br>");
+}
+{
+let a=142;
+let b=240;
+let c=420;
+document.write("=> 12(iii) : ",(a||b)||(b||c)||(c||a));   
+document.write("<br>");
+}
+{
+let a=142;
+let b=240;
+let c=420;
+document.write("=> 12(iv) : ",(a&&b)&&(b&&c)&&(c&&a));   
+document.write("<br>");
+}
+//13
+{
+let a=3;
+let b=3;
+let c=3;
+document.write("=> 13 : ",(b!=c)&&((a>b)+c)||((a*=0)+b));     
+document.write("<br>");
+}
+//14
+{
+ document.write("=> 14 : ",(true)!==(0+true)>(false));    
+document.write("<br>");
+}
+//15
+{
+let a=1;
+let b=7;
+let c=15;
+let d=11;
+document.write("=> 15 : ",(((d||a)%b)-c)==(!(false))!==(""));
+document.write("<br>");
+}
+
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+    
+
+</script>
+</body>
+</html>

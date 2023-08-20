@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>small num</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">small number</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          const num=[parseInt(prompt("n1")),parseInt(prompt("n2")),parseInt(prompt("n3")),parseInt(prompt("n4")),parseInt(prompt("n5"))];<br>
+          <br>
+           function smallest_number(number) {<br>
+           	const result=Math.min(...number);<br>
+           	document.write(result);<br>
+      }<br>
+          <br>
+          smallest_number(num);<br>
+
+            </p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+
+
+<script type="text/javascript">
+	
+const num=[parseInt(prompt("n1")),parseInt(prompt("n2")),parseInt(prompt("n3")),parseInt(prompt("n4")),parseInt(prompt("n5"))];
+
+
+ function smallest_number(number) {
+ 	const result=Math.min(...number);
+document.write("=> ",result);
+}
+smallest_number(num)
+
+document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+
+</script>
+</body>
+</html>

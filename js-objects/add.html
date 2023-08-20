@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>object map</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+	<section class="code my-3">
+   	<div class="container">
+   		<div class="box bg-dark-subtle rounded-5 py-4 px-2">
+   			<h1 class="text-center">Object map</h1>
+   			<p class="fs-6 fw-medium ps-1">
+   				
+  const users = [<br>
+  {<br>
+    first_name: 'Mike',<br>
+    last_name: 'Sheridan'<br>
+  },<br>
+  {<br>
+    first_name: 'Tim',<br>
+    last_name: 'Lee'<br>
+  },<br>
+  {<br>
+    first_name: 'John',<br>
+    last_name: 'Carte'<br>
+  }<br>
+];<br>
+ <br>
+ var result=users.map(function(value) {<br>
+ 	return value.first_name+value.last_name;<br>
+ });<br>
+<br>
+document.write(result);<br>
+   			</p>
+
+   		</div>
+   	</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+<script type="text/javascript">
+
+ const users = [
+  {
+    first_name: 'Mike',
+    last_name: 'Sheridan'
+  },
+  {
+    first_name: 'Tim',
+    last_name: 'Lee'
+  },
+  {
+    first_name: 'John',
+    last_name: 'Carte'
+  }
+];
+ 
+ var result=users.map(function(value) {
+ 	return value.first_name+value.last_name;
+ });
+
+document.write("=> ",result);
+
+document.write("<br>");
+   document.write("<br>");
+    document.write("<br>");
+     document.write("<br>");
+      document.write("<br>");
+
+</script>
+</body>
+</html>

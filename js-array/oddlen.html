@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>odd array</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+
+  <section class="code my-3">
+    <div class="container">
+      <div class="box bg-dark-subtle rounded-5 py-4 px-2">
+        <h1 class="text-center text-capitalize">odd array</h1>
+        <p class="fs-6 fw-medium ps-1">
+
+          num=parseInt(prompt("enter num"));<br>
+          <br>
+               var a=[];<br>
+               var odd=[];<br>
+               <br>
+              for (var i = 0;i <= num ;i++) {<br>
+                      a.push(i);<br>
+                    if(a[i]%2!==0){<br>
+                        odd.push(a[i]);<br>
+                    }<br>
+                }<br>
+                <br>
+            document.write(a, );<br>
+            document.write(odd, );   <br>
+            document.write(odd.length);<br>
+             <br>
+            
+            </p>
+</div>
+</div>
+<h3 class="text-capitalize ms-2 mt-3 mb-5">script output :</h3>
+
+   </section>
+
+
+
+<script type="text/javascript">
+
+ num=parseInt(prompt("enter num"));
+
+     var a=[];
+     var odd=[];
+
+    for (var i = 0;i <= num ;i++) {
+            a.push(i);
+          if(a[i]%2!==0){
+              odd.push(a[i]);
+          }
+      }
+
+  document.write("=> ",a,"<br>");
+  document.write("=> ",odd,"<br>");   
+  document.write("=> ",odd.length);
+
+document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+  document.write("<br>");
+
+</script>
+</body>
+</html>
